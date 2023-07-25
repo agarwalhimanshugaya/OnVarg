@@ -58,7 +58,6 @@ const getExam = asyncHandler(async (req, res) => {
 })
 
 const getExamById = asyncHandler(async (req, res) => {
-  // console.log(req.params.id)
   const exam = await Exam.findById(req.params.id)
 
   if (exam) {
@@ -86,9 +85,4 @@ export {
   getExamById,
   setQues,
   deleteExam,
-  // updateUserProfile,
-  // getUsers,
-  // deleteUser,
-  // getUserById,
-  // updateUser,
 }
