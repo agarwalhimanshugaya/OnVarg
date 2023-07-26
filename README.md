@@ -4,7 +4,7 @@
 
 ## Features
 
-- login and Sign up with proper authentication and authorization with JWT
+- login and Sign up with proper authentication and authorization with JWT authentication
 
 * Faculty
 
